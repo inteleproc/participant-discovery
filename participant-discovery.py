@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from hashlib import sha256
 from base64 import b32encode 
 from dns import resolver
