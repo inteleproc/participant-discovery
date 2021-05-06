@@ -5,7 +5,7 @@ This python script implements the dynamic discovery process of BDXL to find a SM
 # Pre-requisites
 The script is written in python 3 and requires the dnspython and requests module, available through Pypi. You can install these modules by using pip as follows:
 
-    pip install -f requirements.txt
+    pip install -r requirements.txt
 
 # Execution - Getting Results
 
