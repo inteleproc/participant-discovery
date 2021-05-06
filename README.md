@@ -11,7 +11,7 @@ The script is written in python 3 and requires the dnspython and requests module
 
 The script expects the following arguments:
 
-    ./participant-discovery.py \<participants-file\> <domain (optional)>
+    ./participant-discovery.py <participants-file> <domain (optional)>
     
 Where:
 * **Participants-file:**  A text file that contains a participant identifier in every line
