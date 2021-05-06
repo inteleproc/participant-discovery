@@ -12,7 +12,7 @@ def create_bdxl_hash(participant):
     """
 
     # generate SHA256 Hash of the participant Identifier
-    hashed_identifier = sha256(participant.encode("utf-8"))
+    hashed_identifier = sha256(participant.lower().encode("utf-8"))
 
     # get BASE32 of the hashed Identifier digest
     b32_hashed_identifier = b32encode(hashed_identifier.digest())
